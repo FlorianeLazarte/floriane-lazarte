@@ -1,11 +1,12 @@
 import { Navbar } from "./components";
-import { Home } from "./pages";
+import { Home, Projects } from "./pages";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
+      <Projects />
     </div>
   );
 }
