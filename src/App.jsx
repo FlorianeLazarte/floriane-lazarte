@@ -1,5 +1,5 @@
-import { Navbar } from "./components";
-import { About, Home, Projects, Resume } from "./pages";
+import { Footer, Navbar } from "./components";
+import { About, Contact, Home, Projects, Resume } from "./pages";
 
 function App() {
   return (
@@ -9,6 +9,8 @@ function App() {
       <About />
       <Projects />
       <Resume />
+      <Contact />
+      <Footer />
     </div>
   );
 }

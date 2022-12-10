@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Navbar() {
   return (
@@ -6,11 +7,70 @@ function Navbar() {
       <div className="max-w-[1200px] h-[80px] items-center mx-auto flex justify-between">
         <h1 className="text-[30px]">FLORIANE LAZARDE</h1>
         <ul className="flex space-x-[40px] text-[18px]">
-          <li>Home</li>
-          <li>About</li>
-          <li>Project</li>
-          <li>Resume</li>
-          <li>Contact</li>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+            delay={300}
+            isDynamic={true}
+            className="link"
+          >
+            Home
+          </Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={300}
+            delay={500}
+            isDynamic={true}
+            className="link"
+          >
+            About
+          </Link>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={300}
+            delay={500}
+            isDynamic={true}
+            className="link"
+          >
+            Projects
+          </Link>
+          <Link
+            activeClass="active"
+            to="resume"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={300}
+            delay={500}
+            isDynamic={true}
+            className="link"
+          >
+            Resume
+          </Link>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={300}
+            delay={500}
+            isDynamic={true}
+            className="link"
+          >
+            Contact
+          </Link>
         </ul>
       </div>
     </div>

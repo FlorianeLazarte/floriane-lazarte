@@ -22,3 +22,29 @@ html {
 body {
   color: white;
 }
+
+@layer base {
+  input {
+    @apply w-full h-[40px] rounded-[10px] bg-[#C6A4F0] bg-opacity-50 px-[10px];
+  }
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+textarea,
+textarea::placeholder {
+  color: white;
+  padding: 10px;
+}
+
+input,
+textarea {
+  border: none;
+}

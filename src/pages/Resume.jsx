@@ -3,7 +3,7 @@ import { FaBook, FaCalendarAlt } from "react-icons/fa";
 
 function Resume() {
   return (
-    <div className="w-full h-screen">
+    <div name="resume" className="w-full mb-[100px]">
       <div className="max-w-[1200px] mx-auto w-full flex flex-col gap-5">
         <div className="mx-auto text-center">
           <h1 className="text-primary text-[32px]">RESUME</h1>
