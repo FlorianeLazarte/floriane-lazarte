@@ -10,26 +10,26 @@ const Projects = () => {
       <div className="mx-auto text-center">
         <h1 className="text-primary text-[32px]">PROJECTS</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full py-[50px] gap-[32px] flex-1">
+      <div className="grid grid-cols-2 place-items-center w-full py-[50px] gap-[32px] px-5">
         <Project
-          title="Weather App"
-          alt="image"
-          image="https://www.americangeosciences.org/sites/default/files/styles/ci__650_x_430_/public/ERN_weather_map_NOAANWS.gif?itok=B8pzOJHO"
+          title="Note taking App"
+          alt="notes"
+          image="https://images.ctfassets.net/lzny33ho1g45/5iJ10OKtmYa4BZpYvhb2xw/e890aa9115b53ef2d41c9135902285a2/Best_note_taking_apps.jpg"
         />
         <Project
           title="Weather App"
-          alt="image"
-          image="https://www.americangeosciences.org/sites/default/files/styles/ci__650_x_430_/public/ERN_weather_map_NOAANWS.gif?itok=B8pzOJHO"
+          alt="weather app"
+          image="https://s3.amazonaws.com/www-inside-design/uploads/2018/05/weather-app-4_feature.jpg"
         />
         <Project
-          title="Weather App"
-          alt="image"
-          image="https://www.americangeosciences.org/sites/default/files/styles/ci__650_x_430_/public/ERN_weather_map_NOAANWS.gif?itok=B8pzOJHO"
+          title="Chat App"
+          alt="chat app"
+          image="https://media.timeout.com/images/105631955/image.jpg"
         />
         <Project
-          title="Weather App"
-          alt="image"
-          image="https://www.americangeosciences.org/sites/default/files/styles/ci__650_x_430_/public/ERN_weather_map_NOAANWS.gif?itok=B8pzOJHO"
+          title="Portfolio"
+          alt="portfolio image"
+          image="https://line25.com/wp-content/uploads/2016/05/Portfolio-Booklet.jpg"
         />
       </div>
     </div>

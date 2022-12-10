@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function () {
   return (
-    <div className="h-screen max-w-[1200px] mx-auto flex items-center justify-between font-semibold mb-12">
+    <div className="md:h-screen max-w-[1200px] mx-auto flex items-center justify-between font-semibold mb-12 px-5">
       <div className="flex flex-col">
         <span className="text-[30px]">Hi, I'm</span>
         <span className="text-[70px]">Floriane Lazarte</span>
