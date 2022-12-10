@@ -24,7 +24,7 @@ function Navbar() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-74}
             duration={300}
             delay={500}
             isDynamic={true}
@@ -37,7 +37,7 @@ function Navbar() {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-73}
             duration={300}
             delay={500}
             isDynamic={true}

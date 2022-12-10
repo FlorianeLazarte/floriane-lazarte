@@ -27,6 +27,20 @@ body {
   input {
     @apply w-full h-[40px] rounded-[10px] bg-[#C6A4F0] bg-opacity-50 px-[10px];
   }
+
+  .link {
+    @apply cursor-pointer;
+  }
+}
+li:hover,
+.link:hover {
+  color: #3f37c9;
+}
+
+.active {
+  color: #3f37c9;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
 }
 
 input::placeholder {

@@ -3,7 +3,7 @@ import { CSS, HTML, JS } from "../img";
 
 function About() {
   return (
-    <div name="about" className="max-w-[1200px] mx-auto px-5 mb-[100px]">
+    <div name="about" className="max-w-[1200px] mx-auto px-5 mb-[100px] mt-3">
       <div className="mx-auto text-center">
         <h1 className="text-primary text-[32px]">ABOUT</h1>
       </div>

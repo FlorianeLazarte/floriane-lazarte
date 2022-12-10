@@ -7,7 +7,7 @@ export default function () {
   return (
     <div
       name="home"
-      className="md:h-screen max-w-[1200px] mx-auto flex items-center justify-between font-semibold mb-12 px-5"
+      className="md:h-screen max-w-[1200px] mx-auto flex items-center justify-between font-semibold mb-[100px] px-5"
     >
       <div className="flex flex-col">
         <span className="text-[30px]">Hi, I'm</span>
