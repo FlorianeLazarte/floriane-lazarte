@@ -14,6 +14,7 @@ const Projects = () => {
         <Project
           title="Note taking App"
           alt="notes"
+          link="https://github.com/FlorianeLazarte/it-elec-3-note-app-starter-main/"
           image="https://images.ctfassets.net/lzny33ho1g45/5iJ10OKtmYa4BZpYvhb2xw/e890aa9115b53ef2d41c9135902285a2/Best_note_taking_apps.jpg"
         />
         <Project
